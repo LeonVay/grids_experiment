@@ -1,0 +1,56 @@
+.natera-navigation {
+    display: flex;
+    height: 140px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #fff;
+}
+
+.natera-navigation__content {
+    display: flex;
+    flex: 1 1 auto;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.natera-navigation__logo {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.natera-navigation__decorator {
+    width: 30%;
+    height: 1px;
+    background-color: #363636;
+    margin: 5px;
+}
+
+.natera-navigation__content-data {
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15% 0 15%;
+}
+
+.natera-navigation__content-item {
+    color: #000;
+    text-transform: uppercase;
+}
+
+.natera-navigation__action {
+    display: flex;
+    height: 36px;
+    width: 36px;
+    border: solid 1px #363636;
+    color: #363636;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}

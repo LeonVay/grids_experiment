@@ -1,0 +1,190 @@
+.natera-content-item__block-grid {
+    display: grid;
+    position: relative;
+}
+
+.natera-content-item__back-drop {
+    background-color: #f4f4f4;
+    z-index: 0;
+}
+
+.natera-content-item__block-grid__img {
+    background-size: cover;
+    z-index: 1;
+    max-width: 100%;
+    height: auto;
+}
+
+.natera-content-item__data-big {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 1;
+}
+
+.natera-content-item__data-medium {
+    z-index: 1;
+}
+
+.natera-content-item__data-small {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.natera-content-block__action_editors {
+    width: 245px;
+    height: 50px;
+    border: solid 2px #0e95dd;
+    color: #0182d4;
+    background-color: transparent;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 0 auto 5em auto;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.natera-content-block__header {
+    font-family: GothamPro;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.natera-content-block__text {
+    font-family: GothamPro;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #020202;
+}
+
+.natera-content-block__text-bold {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.natera-content-block__text-spaced {
+    line-height: 1.75;
+    text-transform: uppercase;
+}
+
+.natera-content-block__action {
+    border: solid 2px #e8e8e8;
+    background: transparent;
+    font-family: GothamPro;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #d4d4d4;
+    text-transform: uppercase;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 250px;
+    height: 50px;
+}
+
+.natera-content-block__header_editors {
+    text-transform: uppercase;
+    z-index: 1;
+    font-family: GothamPro;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #020202;
+    margin-top: 4.5em;
+    margin-bottom: 0;
+}
+
+.natera-content-block__header-big {
+    z-index: 1;
+    text-transform: uppercase;
+    font-family: GothamPro;
+    font-size: 44px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #020202;
+    margin: 1.8em auto 0.5em auto;
+}
+
+.natera-content-block__sub-header {
+    text-transform: uppercase;
+    z-index: 1;
+    font-family: GothamPro;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #9a9a9a;
+    margin: 1.5em auto 3.5em auto;
+}
+
+.natera-content-item__section-name {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 43px;
+    height: 188px;
+    opacity: 0.5;
+    font-family: GothamPro;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(2, 2, 2, 0.5);
+    writing-mode:vertical-rl; /* vertical text */
+    line-height:2rem; /* center in div */
+    transform:rotate(180deg);
+    align-self: end;
+    justify-self: center;
+    height: auto;
+}
+
+.natera-content-item__section-name > .natera-content-item__section-name__text {
+    font-size: 43px;
+    color: #131313;
+    margin-top: 32px;
+}
+
+.natera-content-item__section-name > .natera-content-item__section-name__decorator {
+    height: 265px;
+    width: 2px;
+    background-color: #131313;
+    margin-top: 32px;
+}
